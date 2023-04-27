@@ -1,0 +1,33 @@
+.header-container {
+    --horizontal-Gap: 24px;
+    --vertical-gap: 24px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--vertical-gap) var(--horizontal-Gap) var(--vertical-gap)
+      var(--horizontal-Gap);
+    background: rgba(0, 0, 0, 0.63);
+    color: white;
+    width: 97vw ;
+      position: fixed;
+      top: 0;
+  }
+  .header-options > div , h1{
+     cursor: pointer;
+  }
+  .header-options > div:hover , h1:hover{
+    transform: scale(1.1);
+  }
+  .header-options > div:active , h1:active{
+    transform: scale(1);
+  }
+  .header-container > .header-text {
+    padding: 0;
+    margin: 0;
+  }
+  .header-container > .header-options {
+    display: flex;
+    gap: var(--horizontal-Gap);
+    align-items: center;
+  }

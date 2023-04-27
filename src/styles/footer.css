@@ -1,0 +1,21 @@
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  p.footer-text {
+    font-size: 18px;
+  }
+}
+footer >  p  > a > img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: -5px;
+}
