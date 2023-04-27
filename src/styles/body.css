@@ -66,5 +66,5 @@ div.grid-img-6{
     margin-bottom: 0px;
 }
 [class^='grid-img']:first-child{
-    margin-bottom: 0px;
+    margin-top: 0px;
 }
