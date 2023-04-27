@@ -6,7 +6,6 @@ const footer = document.createElement("footer");
 
 const p  = document.createElement("p");
 p.classList.add("footer-text");
-p.textContent = "2023 Designed by Anas Mustafa | ";
 
 
 const githubLink = document.createElement("a");
@@ -20,6 +19,7 @@ githubImg.alt = "github account";
 
 githubLink.appendChild(githubImg);
 p.appendChild(githubLink);
+p.append("  2023 Designed by Anas Mustafa");
 footer.appendChild(p);
 
 export {footer}
