@@ -1,5 +1,5 @@
 .header-container {
-    --horizontal-Gap: 24px;
+    --horizontal-Gap: 50px;
     --vertical-gap: 24px;
     margin: 0;
     padding: 0;
@@ -16,6 +16,12 @@
   .header-options > div , h1{
      cursor: pointer;
   }
+.header-options > div{
+    font-size: 22px;
+ }
+ .header-container > h1{
+  font-size: 40px;
+}
   .header-options > div:hover , h1:hover{
     transform: scale(1.1);
   }
@@ -32,7 +38,4 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-  }
-  .header-options > div{
-    font-size: 18px;
   }

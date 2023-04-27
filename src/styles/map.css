@@ -1,0 +1,13 @@
+.map {
+    height: 300px;
+    width: 100%;
+    background-image: url("https://via.placeholder.com/150");
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+    .map {
+      height: 600px;
+    }
+  }

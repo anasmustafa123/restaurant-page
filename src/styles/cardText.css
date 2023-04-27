@@ -1,0 +1,23 @@
+.about-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 70%;
+    text-align: center;
+    margin: 147px auto 147px auto;
+    border-radius: 50px;
+    padding: 24px;
+    background: black;
+    color: #ffffff;
+}
+
+.about-section > h2 {
+    margin-top: 0;
+}
+.about-section > p {
+    font-style: italic;
+    line-height: 1.9;
+    letter-spacing: 0.8px;
+}
