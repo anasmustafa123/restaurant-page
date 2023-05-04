@@ -1,0 +1,43 @@
+.large-header{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.header{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(247, 124, 124);
+}
+.light-header{
+    font-size: 16px;
+    color: rgb(80, 70, 70);
+}
+div.order-type div.order-ingredients{
+    font-size: 14px;
+    color: #a2a2a2;
+}
+
+div.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    flex-direction: column;
+    gap: 5vh;
+    height: 100vh;
+}
+div.main-container div.horizontal{
+    display: flex;
+    gap: 15vw;
+}
+.order-type{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0px 0px 2px 2px grey;
+}
+.title::after{
+    content: " --------------- 30$";
+    color: #fc8484;
+}
