@@ -11,12 +11,14 @@ footer a {
 @media screen and (min-width: 768px) {
   p.footer-text {
     font-size: 18px;
+    margin: 0;
   }
 }
 footer >  p  > a > img{
     width: 30px;
     height: 30px;
-    position: relative;
-    bottom: -8px;
     margin-right: 16px;
+}
+p.footer-text{
+  margin: 0;
 }

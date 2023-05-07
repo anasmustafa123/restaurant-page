@@ -1,6 +1,13 @@
-import '../styles/header.css'
+import "../styles/header.css";
+
 const navbarContainer = document.createElement("nav");
-navbarContainer.classList.add("navbar", "fixed-top", "bg-dark", "navbar-dark", "navbar-expand-sm");
+navbarContainer.classList.add(
+  "navbar",
+  "fixed-top",
+  "bg-dark",
+  "navbar-dark",
+  "navbar-expand-sm"
+);
 navbarContainer.innerHTML = `
 <div class="container">
     <a class="navbar-brand main" href="#">Ginger</a>
@@ -27,5 +34,6 @@ navbarContainer.innerHTML = `
         </div>
     </div>
 </div>    
-`
-export {navbarContainer};
+`;
+
+export { navbarContainer };
