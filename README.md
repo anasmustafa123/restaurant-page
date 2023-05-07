@@ -6,7 +6,7 @@ restaurant page using javaScript
 
 # tic-tac-toe
 did it as part of odin project curricurum
-## live demo is here <a href = "">demo</a>
+## live demo is here <a href = "https://anasmustafa123.github.io/restaurant-page/">demo</a>
 # Description 
 simple restaurant page to test webpack and bootstrap
 * __main page with header and footer__ 
