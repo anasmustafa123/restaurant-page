@@ -33,9 +33,7 @@ div.main-container div.horizontal{
     display: flex;
     flex-direction: column;
     gap: 1vh;
-    border-radius: 25px;
     padding: 20px;
-    box-shadow: 0px 0px 2px 2px grey;
 }
 .title::after{
     content: " --------------- 30$";
