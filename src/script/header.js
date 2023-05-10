@@ -16,7 +16,7 @@ navbarContainer.innerHTML = `
     </button>
     <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-        <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Offcanvas</h5>
+        <h5 class="offcanvas-title main" id="offcanvasNavbarLabel">Ginger</h5>
         <button type="button" class="btn-close btn-close-white" style = "color: white;" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
