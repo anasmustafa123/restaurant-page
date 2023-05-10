@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve --open",
-    "deploy": "gh-pages --dist 'dist' --branch 'release'"
+    "deploy": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"
   },
   "author": "",
   "license": "ISC",
