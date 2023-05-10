@@ -4,7 +4,7 @@ restaurant page using javaScript
 ![GitHub last commit](https://img.shields.io/github/last-commit/anasmustafa123/restaurant-page?color=blue&logo=github)
 ![GitHub top language](https://img.shields.io/github/languages/top/anasmustafa123/restaurant-page)
 
-# tic-tac-toe
+# ginger website
 did it as part of odin project curricurum
 ## live demo is here <a href = "https://anasmustafa123.github.io/restaurant-page/">demo</a>
 # Description 
